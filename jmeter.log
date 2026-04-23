@@ -1,0 +1,56 @@
+2026-04-21 12:46:40,633 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-04-21 12:46:40,669 INFO o.a.j.JMeter: Loading user properties from: C:\Users\harsh\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\user.properties
+2026-04-21 12:46:40,670 INFO o.a.j.JMeter: Loading system properties from: C:\Users\harsh\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin\system.properties
+2026-04-21 12:46:40,687 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-04-21 12:46:40,687 INFO o.a.j.JMeter: Version 5.6.3
+2026-04-21 12:46:40,687 INFO o.a.j.JMeter: java.version=21.0.9
+2026-04-21 12:46:40,687 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2026-04-21 12:46:40,687 INFO o.a.j.JMeter: os.name=Windows 11
+2026-04-21 12:46:40,687 INFO o.a.j.JMeter: os.arch=amd64
+2026-04-21 12:46:40,687 INFO o.a.j.JMeter: os.version=10.0
+2026-04-21 12:46:40,688 INFO o.a.j.JMeter: file.encoding=UTF-8
+2026-04-21 12:46:40,688 INFO o.a.j.JMeter: java.awt.headless=true
+2026-04-21 12:46:40,688 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-04-21 12:46:40,688 INFO o.a.j.JMeter: Available Processors =12
+2026-04-21 12:46:40,708 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-04-21 12:46:40,709 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-04-21 12:46:40,709 INFO o.a.j.JMeter: JMeterHome=C:\Users\harsh\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3
+2026-04-21 12:46:40,709 INFO o.a.j.JMeter: user.dir  =C:\Users\harsh\Downloads\5_Pro_Imp
+2026-04-21 12:46:40,710 INFO o.a.j.JMeter: PWD       =C:\Users\harsh\Downloads\5_Pro_Imp
+2026-04-21 12:46:40,731 INFO o.a.j.JMeter: IP: 172.21.0.72 Name: Harsh FullName: 172.21.0.72
+2026-04-21 12:46:40,754 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\harsh\Downloads\5_Pro_Imp\report'
+2026-04-21 12:46:40,757 INFO o.a.j.s.FileServer: Default base='C:\Users\harsh\Downloads\5_Pro_Imp'
+2026-04-21 12:46:40,760 INFO o.a.j.s.FileServer: Set new base='C:\Users\harsh\Downloads\5_Pro_Imp\src\test\resources\jmeter'
+2026-04-21 12:46:41,092 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-04-21 12:46:41,160 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-04-21 12:46:41,168 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-04-21 12:46:41,175 INFO o.a.j.s.SaveService: Loading file: src\test\resources\jmeter\LoadTest.jmx
+2026-04-21 12:46:41,279 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-21 12:46:41,279 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-21 12:46:41,280 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-21 12:46:41,280 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-04-21 12:46:41,280 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-04-21 12:46:41,280 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-04-21 12:46:41,314 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-04-21 12:46:41,321 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-04-21 12:46:41,322 ERROR o.a.j.JMeter: Error in NonGUIDriver
+java.lang.IllegalArgumentException: Results file:results.jtl is not empty
+	at org.apache.jmeter.report.dashboard.ReportGenerator.<init>(ReportGenerator.java:140) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:1007) [ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.startNonGui(JMeter.java:940) [ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:508) [ApacheJMeter_core.jar:5.6.3]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) [ApacheJMeter.jar:5.6.3]
+2026-04-21 12:46:41,338 ERROR o.a.j.JMeter: An error occurred: 
+org.apache.jmeter.report.config.ConfigurationException: Error in NonGUIDriver Results file:results.jtl is not empty
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:1049) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.startNonGui(JMeter.java:940) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.start(JMeter.java:508) [ApacheJMeter_core.jar:5.6.3]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.apache.jmeter.NewDriver.main(NewDriver.java:259) [ApacheJMeter.jar:5.6.3]
+Caused by: java.lang.IllegalArgumentException: Results file:results.jtl is not empty
+	at org.apache.jmeter.report.dashboard.ReportGenerator.<init>(ReportGenerator.java:140) ~[ApacheJMeter_core.jar:5.6.3]
+	at org.apache.jmeter.JMeter.runNonGui(JMeter.java:1007) ~[ApacheJMeter_core.jar:5.6.3]
+	... 5 more
